@@ -12,5 +12,5 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
 ### STEPS:
 
 1) Creo un file dove inserisco il form e nell'action inserisco il file di atterraggio;
-2) Creo le label e le input dove inserisco anche il "name";
-3)
+2) Creo le label e le input dove inserisco anche il "name" e il metodo 'GET';
+3) nel secondo file richiamo le mie variabili e le stampo in pagina;

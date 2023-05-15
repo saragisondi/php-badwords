@@ -13,4 +13,5 @@ Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
 
 1) Creo un file dove inserisco il form e nell'action inserisco il file di atterraggio;
 2) Creo le label e le input dove inserisco anche il "name" e il metodo 'GET';
-3) nel secondo file richiamo le mie variabili e le stampo in pagina;
+3) Nel secondo file richiamo le mie variabili e le stampo in pagina;
+4) utilizzo 'strlen' per la lunghezza del paragrafo e 'str_replace' per sostituire la parola da censurare con gli asterischi;

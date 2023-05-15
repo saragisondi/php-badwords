@@ -1,6 +1,6 @@
 <?php
 
-var_dump($_GET);
+// var_dump($_GET);
 
 $paragraph = $_GET['paragraph'];
 $badwords = $_GET['badwords'];
@@ -20,13 +20,20 @@ $badwords = $_GET['badwords'];
 <body>
   
   <ul>
-    <h2>Paragrafo:</h2>
+    <h2>Paragrafo Originale:</h2>
     <li><?php echo  $paragraph ?></li>
-    <h2>Lunghezza paragrafo:</h2>
+    <h2>Lunghezza Paragrafo:</h2>
     <li><?php echo strlen($paragraph) ?></li>
-    <h2>Parola da censurare:</h2>
+    <h2>Parola da Censurare:</h2>
     <li><?php echo $badwords  ?></li>
+  </ul>
 
+  <!-- //str_replace(porzioneDaModificare, conCosa, Stringa) -->
+<!-- $testo_corretto= str_replace('dolorum', 'XXXX', $testo); -->
+
+  <ul>
+    <h2>Paragrafo Censurato:</h2>
+    <li><?php echo str_replace($badwords, '***', $paragraph) ?></li>
   </ul>
 </body>
 </html>

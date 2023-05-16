@@ -15,10 +15,11 @@
   
   <div class="container">
     <div class="container-form">
-      <form action="atterraggioForm.php" method="GET">
+      <form action="atterraggioForm.php" method="POST">
       
       <label for="">Paragrafo</label>
-        <input type="text" name="paragraph">
+      <textarea name="paragraph" id="paragraph" cols="40" rows="10"></textarea>
+        <!-- <input type="text" name="paragraph"> -->
       
       <label for="">Parola da censurare</label>
         <input type="text" name="badwords">
@@ -29,7 +30,7 @@
       </form>
       
     </div>
-    
+
   </div>
 
 </body>
